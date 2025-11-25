@@ -1,0 +1,6 @@
+File Description
+This folder contains the experimental script for the Cognitive Map and Schizotypy (cogmap-schizo) study. 
+The main function of the program is RUN_ALL_TASKS.m. After running it, you will be prompted to enter the participant ID (must be a numeric value), followed by the group assignment (image / language) and the session (day1 / day2). 
+In our actual study, all participants completed the experiment on day1. 
+Before running the experiment, please ensure that Psychtoolbox is properly installed (http://psychtoolbox.org/). 
+The version used in our study is Psychtoolbox 3–3.0.19.10.
