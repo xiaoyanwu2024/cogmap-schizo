@@ -10,7 +10,7 @@ load('data.mat');
 load('ModelList.mat');
 
 % model fitting
-NumMoltiiStart = 200;
+NumMoltiiStart = 1000;
 NumMaxTry = 500;
 core = 24;
 p = parpool(core);
@@ -40,3 +40,4 @@ box off
 xticklabels(modelnames);
 xtickangle(45);
 ylabel('△AICc');
+
